@@ -53,6 +53,6 @@ public class StudentController {
     }
 
     public void tim_kiem_sv_theo_sdt() {
-        this.view.tim_sv_theo_sdt(students);
+        this.view.tim_kiem_sdt(students);
     }
 }
