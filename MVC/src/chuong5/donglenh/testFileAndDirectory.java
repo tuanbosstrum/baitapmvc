@@ -21,7 +21,7 @@ public class testFileAndDirectory {
         // TODO code application logic here
         FileAndDirectoryOperations fo = new FileAndDirectoryOperations();
         File[] content = fo.getDirectoryContent("E:\\baitapMVC\\baitapmvc\\MVC\\src");
-//        System.out.println(fo.displayContent(content));
+        //System.out.println(fo.displayContent(content));
         File[] thumuc = fo.getSubDirectories(content);
         System.out.println("danh sach cac thu muc con la:");
         System.out.println(fo.displayContent(thumuc));
