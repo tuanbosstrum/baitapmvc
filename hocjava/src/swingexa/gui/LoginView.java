@@ -100,7 +100,7 @@ public class LoginView extends javax.swing.JFrame {
         // TODO add your handling code here:
         UserModel user = new UserModel(this.jtxtUsername.getText(), 
                                         String.valueOf(this.jtxtPassword.getPassword()));
-        dbutils db = new dbutils("qlht", "3306", "root", "01032001");
+        dbutils db = new dbutils("lthdt", "3306", "root", "01032001");
         Connection ketnoi = db.lay_ket_noi_csdl();
         if(user.kiem_tra_account(ketnoi)){
             JOptionPane.showMessageDialog(this, "Dang nhap thanh cong", "Thong bao ket qua", JOptionPane.INFORMATION_MESSAGE);
